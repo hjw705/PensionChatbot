@@ -1,0 +1,13 @@
+
+body {
+  /*display: table;*/
+}
+
+.index_header {
+  /*display: table-cell;*/
+  width: 100%;
+  height:auto;
+  background-color: red;
+}
+
+.tab { white-space: pre; }
