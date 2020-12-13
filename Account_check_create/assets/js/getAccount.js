@@ -136,3 +136,9 @@ function press() {
 "Bncd": "은행코드를입력하세요",
 "Acno": "계좌번호를입력하세요"
 */
+
+function CloseWindow() {
+  window.open('', '_self', '');
+  window.close();
+  return false;
+}

@@ -38,9 +38,10 @@ CREATE TABLE pin_account (
 	finacno int PRIMARY KEY
 );
 
-CREATE TABLE balance (
+CREATE TABLE ivestment_tendency (
 	finacno int PRIMARY KEY,
-    bal int
+    tendency varchar(20),
+    FOREIGN KEY (finacno) REFERENCES pin_account(finacno)
 );
 
 SELECT * FROM product;
