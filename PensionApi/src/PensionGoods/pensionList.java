@@ -152,6 +152,7 @@ public class pensionList {
 						btrm_prft_rate_2 과거 수익률2(전전년도) [소수점 2자리] - 1.97
 						btrm_prft_rate_3 과거 수익률3(전전전년도) [소수점 2자리] - 3.35
 						*/
+						
 					   	String sql = "INSERT INTO product VALUES(?,?,?,?,?,?,?,?,?,?);";
 					   	try {
 							pstmt = DBcon.prepareStatement(sql);
